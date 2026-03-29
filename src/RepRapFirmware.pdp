@@ -1,0 +1,791 @@
+ Escher!                                     
+ProjectData ProjectFileSet 
+ Ë
+# #.\Accelerometers\Accelerometers.cpp
+
+% %.\Accelerometers\LISAccelerometer.cpp
+
+ .\CAN\CanDriversData.cpp
+
+ .\CAN\CanInterface.cpp
+
+& &.\CAN\CanMessageGenericConstructor.cpp
+
+ .\CAN\CanMotion.cpp
+
+ .\CAN\CommandProcessor.cpp
+
+ .\CAN\ExpansionManager.cpp
+
+ .\ClosedLoop\ClosedLoop.cpp
+
+ .\Comms\AuxDevice.cpp
+
+ .\Comms\FirmwareUpdater.cpp
+
+ .\Comms\PanelDueUpdater.cpp
+
+ .\Config\Pins.cpp
+
+ .\Display\ButtonMenuItem.cpp
+
+ .\Display\Display.cpp
+
+ .\Display\FilesMenuItem.cpp
+
+ .\Display\ImageMenuItem.cpp
+
+! !.\Display\Lcd\Fonts\glcd11x14.cpp
+
+   .\Display\Lcd\Fonts\glcd7x11.cpp
+
+ .\Display\Lcd\Lcd.cpp
+
+ .\Display\Lcd\MonoLcd.cpp
+
+   .\Display\Lcd\ST7567\Lcd7567.cpp
+
+   .\Display\Lcd\ST7920\Lcd7920.cpp
+
+ .\Display\Lcd\TFTLcd.cpp
+
+ .\Display\Menu.cpp
+
+ .\Display\MenuItem.cpp
+
+ .\Display\ResistiveTouch.cpp
+
+ .\Display\RotaryEncoder.cpp
+
+ .\Display\TextMenuItem.cpp
+
+ .\Display\ValueMenuItem.cpp
+
+ .\DuetNG\DueXn.cpp
+
+ .\DuetNG\SX1509.cpp
+
+ .\Endstops\Endstop.cpp
+
+ .\Endstops\EndstopsManager.cpp
+
+ .\Endstops\LocalZProbe.cpp
+
+ .\Endstops\RemoteZProbe.cpp
+
+$ $.\Endstops\StallDetectionEndstop.cpp
+
+ .\Endstops\SwitchEndstop.cpp
+
+ .\Endstops\ZProbe.cpp
+
+ .\Endstops\ZProbeEndstop.cpp
+
+ .\Fans\Fan.cpp
+
+ .\Fans\FansManager.cpp
+
+ .\Fans\LocalFan.cpp
+
+ .\Fans\RemoteFan.cpp
+
+, ,.\FilamentMonitors\Duet3DFilamentMonitor.cpp
+
+& &.\FilamentMonitors\FilamentMonitor.cpp
+
++ +.\FilamentMonitors\LaserFilamentMonitor.cpp
+
+, ,.\FilamentMonitors\PulsedFilamentMonitor.cpp
+
+4 4.\FilamentMonitors\RotatingMagnetFilamentMonitor.cpp
+
+, ,.\FilamentMonitors\SimpleFilamentMonitor.cpp
+
+ .\GCodes\CollisionAvoider.cpp
+
+% %.\GCodes\GCodeBuffer\BinaryParser.cpp
+
+) ).\GCodes\GCodeBuffer\ExpressionParser.cpp
+
+$ $.\GCodes\GCodeBuffer\GCodeBuffer.cpp
+
+% %.\GCodes\GCodeBuffer\StringParser.cpp
+
+ .\GCodes\GCodeException.cpp
+
+ .\GCodes\GCodeFileInfo.cpp
+
+ .\GCodes\GCodeInput.cpp
+
+ .\GCodes\GCodeMachineState.cpp
+
+ .\GCodes\GCodeQueue.cpp
+
+ .\GCodes\GCodes.cpp
+
+ .\GCodes\GCodes2.cpp
+
+ .\GCodes\GCodes3.cpp
+
+ .\GCodes\GCodes4.cpp
+
+ .\GCodes\GCodes5.cpp
+
+ .\GCodes\GCodes6.cpp
+
+ .\GCodes\GCodes7.cpp
+
+ .\GCodes\KeepoutZone.cpp
+
+ .\GCodes\ObjectTracker.cpp
+
+ .\GCodes\RestorePoint.cpp
+
+" ".\GCodes\StraightProbeSettings.cpp
+
+ .\GCodes\TriggerItem.cpp
+
+ .\GPIO\GpInPort.cpp
+
+ .\GPIO\GpOutPort.cpp
+
+   .\Hardware\ExceptionHandlers.cpp
+
+ .\Hardware\I2C.cpp
+
+ .\Hardware\IoPorts.cpp
+
+   .\Hardware\NonVolatileMemory.cpp
+
+ .\Hardware\SAM4E\Devices.cpp
+
+ .\Hardware\SAM4E\Main.cpp
+
+ .\Hardware\SoftwareReset.cpp
+
+" ".\Hardware\Spi\SharedSpiClient.cpp
+
+" ".\Hardware\Spi\SharedSpiDevice.cpp
+
+ .\Hardware\Spi\SpiDevice.cpp
+
+ .\Heating\FOPDT.cpp
+
+ .\Heating\Heat.cpp
+
+ .\Heating\Heater.cpp
+
+ .\Heating\HeaterMonitor.cpp
+
+ .\Heating\LocalHeater.cpp
+
+ .\Heating\RemoteHeater.cpp
+
+, ,.\Heating\Sensors\AdditionalOutputSensor.cpp
+
+ .\Heating\Sensors\BME280.cpp
+
+* *.\Heating\Sensors\CpuTemperatureSensor.cpp
+
+2 2.\Heating\Sensors\CurrentLoopTemperatureSensor.cpp
+
+ .\Heating\Sensors\DhtSensor.cpp
+
+( (.\Heating\Sensors\LinearAnalogSensor.cpp
+
+" ".\Heating\Sensors\RemoteSensor.cpp
+
+$ $.\Heating\Sensors\RtdSensor31865.cpp
+
+$ $.\Heating\Sensors\SensorWithPort.cpp
+
+* *.\Heating\Sensors\SpiTemperatureSensor.cpp
+
+' '.\Heating\Sensors\TemperatureSensor.cpp
+
+   .\Heating\Sensors\Thermistor.cpp
+
+- -.\Heating\Sensors\ThermocoupleSensor31855.cpp
+
+- -.\Heating\Sensors\ThermocoupleSensor31856.cpp
+
+0 0.\Heating\Sensors\TmcDriverTemperatureSensor.cpp
+
+   .\InputMonitors\InputMonitor.cpp
+
+ .\LedStrips\DotStarLedStrip.cpp
+
+ .\LedStrips\LedStripBase.cpp
+
+ .\LedStrips\LedStripManager.cpp
+
+ .\LedStrips\LocalLedStrip.cpp
+
+   .\LedStrips\NeoPixelLedStrip.cpp
+
+ .\LedStrips\RemoteLedStrip.cpp
+
+ .\Movement\AxisShaper.cpp
+
+ .\Movement\BedProbing\Grid.cpp
+
+- -.\Movement\BedProbing\RandomProbePointSet.cpp
+
+ .\Movement\DDA.cpp
+
+ .\Movement\DDARing.cpp
+
+ .\Movement\DriveMovement.cpp
+
+ .\Movement\ExtruderShaper.cpp
+
+- -.\Movement\HeightControl\HeightController.cpp
+
+( (.\Movement\Kinematics\CoreKinematics.cpp
+
+0 0.\Movement\Kinematics\FiveBarScaraKinematics.cpp
+
+/ /.\Movement\Kinematics\HangprinterKinematics.cpp
+
+$ $.\Movement\Kinematics\Kinematics.cpp
+
+/ /.\Movement\Kinematics\LinearDeltaKinematics.cpp
+
+) ).\Movement\Kinematics\PolarKinematics.cpp
+
+/ /.\Movement\Kinematics\RotaryDeltaKinematics.cpp
+
+, ,.\Movement\Kinematics\RoundBedKinematics.cpp
+
+) ).\Movement\Kinematics\ScaraKinematics.cpp
+
+. ..\Movement\Kinematics\ZLeadscrewKinematics.cpp
+
+. ..\Movement\Kinematics\CableXYKinematics.cpp
+
+ .\Movement\Move.cpp
+
+ .\Movement\Move2.cpp
+
+ .\Movement\Move3.cpp
+
+ .\Movement\MoveSegment.cpp
+
+ .\Movement\PhaseStep.cpp
+
+ .\Movement\RawMove.cpp
+
+ .\Movement\StepTimer.cpp
+
+( (.\Movement\StepperDrivers\DriverData.cpp
+
+( (.\Movement\StepperDrivers\DriverMode.cpp
+
+% %.\Movement\StepperDrivers\TMC22xx.cpp
+
+% %.\Movement\StepperDrivers\TMC2660.cpp
+
+% %.\Movement\StepperDrivers\TMC51xx.cpp
+
+* *.\Networking\ESP8266WiFi\WiFiInterface.cpp
+
+' '.\Networking\ESP8266WiFi\WiFiSocket.cpp
+
+1 1.\Networking\ESP8266WiFi\WifiFirmwareUploader.cpp
+
+ .\Networking\FtpResponder.cpp
+
+ .\Networking\HttpResponder.cpp
+
+ .\Networking\Network.cpp
+
+ .\Networking\NetworkBuffer.cpp
+
+ .\Networking\NetworkClient.cpp
+
+! !.\Networking\NetworkInterface.cpp
+
+! !.\Networking\NetworkResponder.cpp
+
+   .\Networking\TelnetResponder.cpp
+
+* *.\Networking\UploadingNetworkResponder.cpp
+
+, ,.\Networking\W5500Ethernet\MdnsResponder.cpp
+
+- -.\Networking\W5500Ethernet\W5500Interface.cpp
+
+* *.\Networking\W5500Ethernet\W5500Socket.cpp
+
+: :.\Networking\W5500Ethernet\Wiznet\Ethernet\W5500\w5500.cpp
+
+5 5.\Networking\W5500Ethernet\Wiznet\Ethernet\WizSpi.cpp
+
+8 8.\Networking\W5500Ethernet\Wiznet\Ethernet\socketlib.cpp
+
+; ;.\Networking\W5500Ethernet\Wiznet\Ethernet\wizchip_conf.cpp
+
+8 8.\Networking\W5500Ethernet\Wiznet\Internet\DHCP\dhcp.cpp
+
+! !.\ObjectModel\GlobalVariables.cpp
+
+ .\ObjectModel\ObjectModel.cpp
+
+ .\ObjectModel\Variable.cpp
+
+ .\Platform\ArrayHandle.cpp
+
+ .\Platform\Event.cpp
+
+ .\Platform\Heap.cpp
+
+ .\Platform\Logger.cpp
+
+ .\Platform\MessageBox.cpp
+
+ .\Platform\OutputMemory.cpp
+
+ .\Platform\Platform.cpp
+
+ .\Platform\PortControl.cpp
+
+ .\Platform\RepRap.cpp
+
+ .\Platform\StringHandle.cpp
+
+ .\Platform\Tasks.cpp
+
+ .\Platform\UniqueId.cpp
+
+ .\PrintMonitor\PrintMonitor.cpp
+
+ .\RepRapFirmware.cpp
+
+ .\SBC\DataTransfer.cpp
+
+ .\SBC\SbcInterface.cpp
+
+ .\Storage\CRC16.cpp
+
+ .\Storage\CRC32.cpp
+
+ .\Storage\EmbeddedFiles.cpp
+
+ .\Storage\FileInfoParser.cpp
+
+ .\Storage\FileStore.cpp
+
+ .\Storage\MassStorage.cpp
+
+ .\Tools\Filament.cpp
+
+ .\Tools\Spindle.cpp
+
+ .\Tools\Tool.cpp
+
+ .\bossa\Applet.cpp
+
+ .\bossa\BossaFlash.cpp
+
+ .\bossa\Device.cpp
+
+ .\bossa\EefcFlash.cpp
+
+ .\bossa\Flasher.cpp
+
+ .\bossa\Samba.cpp
+
+ .\bossa\WordCopyApplet.cpp
+
+ .\bossa\WordCopyArm.cpp
+
+ .\libc\memcmp.c
+
+ .\libc\memcpy.c
+
+ .\libc\memmove.c
+
+ .\libc\memset.c
+
+ .\libc\strptime.cpp
+
+9 OptionId  
+OptionItem	 
+OptionType
+
+ OptionItemData
+ 	
+
+
+ 	
+
+
+ seq  
+
+2 	
+
+
+
+
+ 400
+
+
+ 10000	
+
+
+ 	
+
+
+
+
+0 	
+
+
+
+
+4  	
+
+
+
+
+ C++	
+
+
+
+
+
+ 
+.\Generated 
+
+
+
+ 
+.\Generated 		
+
+
+
+
+ 
+	
+
+
+
+
+1
+	
+
+
+
+
+ ISO	
+
+
+
+
+ 100
+	
+
+
+
+
+1	
+
+
+
+
+0!	
+
+
+
+
+3#	
+
+
+
+
+1%	
+
+
+
+
+0'	
+
+
+
+
+0)	
+
+
+
+
+0+	
+
+
+
+
+0-	
+
+
+
+
+1/	
+
+
+ 1	
+
+
+
+
+43	
+
+
+
+
+ ecv.pd5	
+
+
+
+
+	 	rubric.pd7	
+
+
+
+
+19	
+
+
+
+
+ 200;	
+
+
+
+
+ 15=	
+
+
+
+
+0? 	
+
+
+
+
+ 1000A!	
+
+
+
+
+ htmlC"	
+
+
+
+
+
+ 
+.\xref.txt
+
+
+
+ 
+.\xref.txt#	
+
+
+
+
+0H$	
+
+
+
+
+0J%	
+
+
+
+
+
+ 
+ipfiles.pddL'	
+ 
+
+
+
+1N(	
+ 
+
+
+
+.P)	
+ 
+
+
+
+. 
+
+
+. *	
+
+
+
+
+
+
+
+ Á Á-wi="may result in invalid verification results because it violates strong typing" -wi="Implicit not_null(...) operation assumed around expression" -wi="because it has a variable argument list"+	
+ 
+
+
+
+ X,	
+ 
+
+
+
+ Z-	
+
+
+
+
+   .\Proof 
+
+
+   .\Proof .	
+
+
+
+
+
+ 
+.\Unproven 
+
+
+
+ 
+.\Unproven /	
+
+
+
+
+ htmlb0	
+
+
+
+
+ d1	
+
+
+
+
+0f2	
+
+
+
+
+0h3	
+ 
+
+j4	
+
+
+
+
+3l5	
+
+
+
+
+ÑÑC:\Eclipse\Firmware-3.6\CoreN2G\src
+C:\Eclipse\Firmware-3.6\CoreN2G\src\SAM4S_4E_E70
+C:\Eclipse\Firmware-3.6\CoreN2G\src\SAM4S_4E_E70\SAME70
+C:\Eclipse\Firmware-3.6\CoreN2G\src\SAM4S_4E_E70\asf\common\utils
+C:\Eclipse\Firmware-3.6\CoreN2G\src\arm\CMSIS\5.4.0\CMSIS\Core\Include
+C:\Eclipse\Firmware-3.6\CoreN2G\src\SAM4S_4E_E70\asf\sam\utils\cmsis\same70\include
+C:\Eclipse\Firmware-3.6\CoreN2G\src\SAM4S_4E_E70\asf
+C:\Eclipse\Firmware-3.6\CoreN2G\src\SAM4S_4E_E70\asf\sam\utils
+C:\Eclipse\Firmware-3.6\CoreN2G\src\SAM4S_4E_E70\asf\sam\utils\preprocessor
+C:\Eclipse\Firmware-3.6\CoreN2G\src\SAM4S_4E_E70\asf\sam\utils\header_files
+C:\Eclipse\Firmware-3.6\CoreN2G\src\SAM4S_4E_E70\asf\sam\drivers
+.
+.\Hardware\SAME70
+.\DuetNG
+.\Networking
+C:\Eclipse\Firmware-3.6\WiFiSocketServerRTOS\src\include
+C:\Eclipse\Firmware-3.6\FreeRTOS\src\include
+C:\Eclipse\Firmware-3.6\FreeRTOS\src\portable\GCC\ARM_CM7\r0p1
+C:\Eclipse\Firmware-3.6\RRFLibraries\src
+C:\Eclipse\Firmware-3.6\CANlib\src
+
+
+ÜÜC:\Eclipse\Firmware-3.6\CoreN2G\src
+C:\Eclipse\Firmware-3.6\CoreN2G\src\SAM4S_4E_E70
+C:\Eclipse\Firmware-3.6\CoreN2G\src\SAM4S_4E_E70\SAM4E
+C:\Eclipse\Firmware-3.6\CoreN2G\src\SAM4S_4E_E70\asf\common\utils
+C:\Eclipse\Firmware-3.6\CoreN2G\src\arm\CMSIS\5.4.0\CMSIS\Core\Include
+C:\Eclipse\Firmware-3.6\CoreN2G\src\SAM4S_4E_E70\asf\sam\utils\cmsis\sam4e\include
+C:\Eclipse\Firmware-3.6\CoreN2G\src\SAM4S_4E_E70\asf
+C:\Eclipse\Firmware-3.6\CoreN2G\src\SAM4S_4E_E70\asf\sam\utils
+C:\Eclipse\Firmware-3.6\CoreN2G\src\SAM4S_4E_E70\asf\sam\utils\preprocessor
+C:\Eclipse\Firmware-3.6\CoreN2G\src\SAM4S_4E_E70\asf\sam\utils\header_files
+C:\Eclipse\Firmware-3.6\CoreN2G\src\SAM4S_4E_E70\asf\sam\drivers
+.
+.\Hardware\SAM4E
+.\DuetNG
+.\Networking
+C:\Eclipse\Firmware-3.6\WiFiSocketServerRTOS\src\include
+C:\Eclipse\Firmware-3.6\FreeRTOS\src\include
+C:\Eclipse\Firmware-3.6\FreeRTOS\src\portable\GCC\ARM_CM4F
+C:\Eclipse\Firmware-3.6\RRFLibraries\src
+C:\Eclipse\Firmware-3.6\CANlib\src
+.\libc\eCvInclude6	
+
+
+
+
+L LDUET3_MB6HC=1
+__SAME70Q20B__=1
+__ARM_ARCH_7EM__=1
+RTOS
+__GNUC__
+__VFP_FP__=1
+
+
+E EDUET_NG=1
+__SAM4E8E__=1
+__ARM_ARCH_7EM__=1
+RTOS
+__GNUC__
+__VFP_FP__=17	
+
+
+
+
+t9	
+
+
+
+
+ htmlv:	
+
+
+
+
+ 
+
+
+ <	
+
+
+
+
+0{=	
+
+
+
+
+0} 
+
+
+ 
+Duet 3 6HC
+ Duet 2 Time
+ è
